@@ -9,7 +9,7 @@ import { StudentTableComponent } from './shared/component/student-table/student-
 import { StudentDashboardComponent } from './shared/component/student-dashboard/student-dashboard.component';
 import {MatButtonModule} from '@angular/material/button'
 import {MatIconModule} from '@angular/material/icon'
-import {MatSnackBarModule} from '@angular/material/snack-bar'
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatIconModule,
     FormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
