@@ -14,7 +14,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { StudentFormComponent } from './shared/component/student-form/student-form.component';
 import { StudentTableComponent } from './shared/component/student-table/student-table.component';
 import { StudentDashboardComponent } from './shared/component/student-dashboard/student-dashboard.component';
-
 @NgModule({
   declarations: [
     AppComponent,
